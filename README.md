@@ -7,3 +7,8 @@ This framework aims to enable efficient identification and suggestion of any num
 Keywords: Collectable Card Games (CCGs), Explainable Artificial Intelligence (XAI), Convolutional Neural Network (CNN), Shapley Additive Explanation (SHAP), Uncertainty Quantification (UQ)
 
 You can read full paper in project's wiki.
+
+## Technology Usage
+This dissertation has two parts:
+* Game Prototype is designed and developed with Unity
+* Game Balancer Framework seperately developed with Python 3 in JupyterLab
