@@ -1,0 +1,15 @@
+cardId,type,cardName,place,mana,health,attack,desc,ability,param,condition,trigger
+15,Bot,Thundersurge,OwnTurf,1,2,2,Place Energy Tile; A+2 when landed,EnergyTile,2,,StartOnce
+16,Bot,Hardblight,OwnTurf,2,3,2,Negate all enemies tile,NegateTile,1,,Move
+17,Bot,Homethunder,OwnTurf,2,2,3,A+1 when place on the wall,AtkUp,1,PlaceTower,StartOnce
+18,Bot,Hope,OwnTurf,3,5,3,,,0,,
+19,Bot,Starlode,OwnTurf,4,6,3,A+1 to all allies bot,AlliesAtkUp,1,,StartOnce
+20,Bot,Bridget,OwnTurf,5,4,3,A+2 when an ally bots in lane,AtkUp,1,2InLane,StartOnce
+21,Bot,Hero,OwnTurf,5,3,3,H+1/A+1 if it's in frontest,AllStatsUp,1,IsInFront,StartOnce
+22,Bot,DropLet,OwnTurf,2,1,2,Can Jump over a bot,Jump,1,,Move
+23,Bot,Splasher,OwnTurf,2,1,2,Attack 2 dir. L-R,DiagAttack,1,,Attack
+24,Bot,Kingfrost,OwnTurf,3,3,3,Place Frozen Trap; Stop 1 turn when landed,FrozenTile,1,,StartOnce
+25,Bot,Torrential,OwnTurf,4,2,2,A+1 when in enemy area,AllStatsUp,1,EnemyTurf,Start
+26,Bot,Kraken,OwnTurf,4,3,4,A+1 when any ally bot wipe out,AllStatsUp,1,OwnBotWipe,Wipe
+27,Bot,Tsunami,OwnTurf,4,3,3,Attack 3 dir. L-F-R,WideAttack,1,,
+28,Bot,Atlantis,OwnTurf,4,6,2,A+4 when attack bot on Freeze Tile,Atkup,4,EnemyFrozenBot,Attack

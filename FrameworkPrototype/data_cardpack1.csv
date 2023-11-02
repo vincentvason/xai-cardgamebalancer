@@ -1,0 +1,15 @@
+cardId,type,cardName,place,mana,health,attack,desc,ability,param,condition,trigger
+1,Bot,Crimson,OwnTurf,1,1,1,H+1/A+1 when place on wall,AllStatsUp,1,PlaceTower,StartOnce
+2,Bot,Mighty,OwnTurf,2,3,3,,,0,,
+3,Bot,Flameburge,OwnTurf,2,3,2,Place Fire Trap; Deal 1 when passed,PlaceFireTrap,1,,StartOnce
+4,Bot,Emperor,OwnTurf,4,4,2,A+2 to left and right ally bot,AtkUpAdjacent,2,,StartOnce
+5,Bot,Psycho,OwnTurf,3,2,2,Deal 2 to forward when destroyed,Bomb,2,Death,Wipe
+6,Bot,Queen,OwnTurf,4,3,4,A+2 when an ally bots in lane,AtkUp,2,2InLane,Attack
+7,Bot,Reinheart,OwnTurf,7,6,6,Deal 4 dmg to the nearest bot in lane when place,Shockwave,4,,StartOnce
+8,Bot,Brim,OwnTurf,1,2,1,MP+1 every turn,ManaBonus,1,,Start
+9,Bot,Heart,OwnTurf,2,2,0,MP+2 every turn,ManaBonus,2,,Start
+10,Bot,Storm,OwnTurf,3,1,2,Attack from two spaces,Range,2,,
+11,Bot,Lightwind,OwnTurf,3,2,2,MP+2 when place a bot,ManaBonus,2,,StartOnce
+12,Bot,Gust,OwnTurf,4,2,2,Deal 2 dmg to the nearest bot in lane when place,Shockwave,2,,StartOnce
+13,Bot,Steelgale,OwnTurf,4,7,3,Reduce 1 dmg when being attacked,Defense,1,,Damaged
+14,Bot,Tornado,OwnTurf,6,7,5,Attack from two spaces,Range,2,,

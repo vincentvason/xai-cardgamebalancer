@@ -1,0 +1,28 @@
+1,Bot,Crimson,OwnTurf,1,1,1,H+1/A+1 when place on wall,AllStatsUp,1,PlaceTower,StartOnce
+2,Bot,Mighty,OwnTurf,2,3,3,None,nan,0,nan,nan
+3,Bot,Flameburge,OwnTurf,2,3,2,Place Fire Trap; Deal 1 when passed,PlaceFireTrap,1,nan,StartOnce
+4,Bot,Emperor,OwnTurf,3,4,2,A+2 to left and right ally bot,AtkUpAdjacent,2,nan,StartOnce
+5,Bot,Psycho,OwnTurf,3,2,2,Deal 2 to forward when destroyed,Bomb,2,Death,Wipe
+6,Bot,Queen,OwnTurf,4,3,4,A+2 when an ally bots in lane,AtkUp,2,2InLane,Attack
+7,Bot,Reinheart,OwnTurf,7,6,6,Deal 4 dmg to the nearest bot in lane when place,Shockwave,4,nan,StartOnce
+8,Bot,Brim,OwnTurf,1,2,1,MP+1 every turn,ManaBonus,1,nan,Start
+9,Bot,Heart,OwnTurf,2,2,0,MP+2 every turn,ManaBonus,2,nan,Start
+10,Bot,Storm,OwnTurf,3,1,2,Attack from two spaces,Range,2,nan,nan
+11,Bot,Lightwind,OwnTurf,3,2,2,MP+2 when place a bot,ManaBonus,2,nan,StartOnce
+12,Bot,Gust,OwnTurf,4,2,2,Deal 2 dmg to the nearest bot in lane when place,Shockwave,2,nan,StartOnce
+13,Bot,Steelgale,OwnTurf,4,7,3,Reduce 1 dmg when being attacked,Defense,1,nan,Damaged
+14,Bot,Tornado,OwnTurf,6,7,5,Attack from two spaces,Range,2,nan,nan
+15,Bot,Thundersurge,OwnTurf,1,2,2,Place Energy Tile; A+2 when landed,EnergyTile,2,nan,StartOnce
+16,Bot,Hardblight,OwnTurf,2,3,2,Negate all enemies tile,NegateTile,1,nan,Move
+17,Bot,Homethunder,OwnTurf,2,2,3,A+1 when place on the wall,AtkUp,1,PlaceTower,StartOnce
+18,Bot,Hope,OwnTurf,3,5,3,None,nan,0,nan,nan
+19,Bot,Starlode,OwnTurf,4,6,3,A+1 to all allies bot,AlliesAtkUp,1,nan,StartOnce
+20,Bot,Bridget,OwnTurf,5,4,3,A+2 when an ally bots in lane,AtkUp,1,2InLane,StartOnce
+21,Bot,Hero,OwnTurf,5,3,3,H+1/A+1 if it's in frontest,AllStatsUp,1,IsInFront,StartOnce
+22,Bot,DropLet,OwnTurf,2,1,2,Can Jump over a bot,Jump,1,nan,Move
+23,Bot,Splasher,OwnTurf,2,1,2,Attack 2 dir. L-R,DiagAttack,1,nan,Attack
+24,Bot,Kingfrost,OwnTurf,3,3,3,Place Frozen Trap; Stop 1 turn when landed,FrozenTile,1,nan,StartOnce
+25,Bot,Torrential,OwnTurf,4,2,2,A+1 when in enemy area,AllStatsUp,1,EnemyTurf,Start
+26,Bot,Kraken,OwnTurf,4,3,4,A+1 when any ally bot wipe out,AllStatsUp,1,OwnBotWipe,Wipe
+27,Bot,Tsunami,OwnTurf,4,3,3,Attack 3 dir. L-F-R,WideAttack,1,nan,nan
+28,Bot,Atlantis,OwnTurf,4,6,2,A+4 when attack bot on Freeze Tile,Atkup,4,EnemyFrozenBot,Attack
