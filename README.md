@@ -14,7 +14,7 @@ This dissertation has two parts:
 * Game Balancer Framework seperately developed with Python 3 in JupyterLab
 
 ## Disclaimer
-This dissertation is submitted by [Vason Maitree](https://www.linkedin.com/in/vasonmi3/) and supervised by [Dr. Nikolaos Ersotelos](https://people.uwe.ac.uk/Person/NikolaosErsotelos)
+This dissertation is submitted by [Vason Maitree](https://www.linkedin.com/in/vasonmi3/) and supervised by [Dr. Nikolaos Ersotelos](https://people.uwe.ac.uk/Person/NikolaosErsotelos).
 
-[MSc Commerical Games Development, University of West of England](https://info.uwe.ac.uk/programmes/displayentry.asp?code=I60012&rp=listEntry.asp).
+[MSc Commerical Games Development, University of West of England](https://info.uwe.ac.uk/programmes/displayentry.asp?code=I60012&rp=listEntry.asp)
 
