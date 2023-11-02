@@ -6,7 +6,7 @@ The game-balanced framework consists of three layers. The Player Layer, which in
 This framework aims to enable efficient identification and suggestion of any numerical parameters that cause imbalance and iterates over game parameters to restore game balance. This framework was designed and tested for a particular game. However, the background methodology can also apply to games such as Magic: The Gathering, Hearthstone, Pokémon Trading Card Game, and Yu-Gi-Oh! Trading Card Game.
 Keywords: Collectable Card Games (CCGs), Explainable Artificial Intelligence (XAI), Convolutional Neural Network (CNN), Shapley Additive Explanation (SHAP), Uncertainty Quantification (UQ)
 
-You can read full paper in project's wiki.
+You can read full paper in [project's wiki](https://github.com/vincentvason/xai-cardgamebalancer/wiki).
 
 ## Technology Usage
 This dissertation has two parts:
