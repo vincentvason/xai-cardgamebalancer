@@ -1,5 +1,12 @@
 # LEVERAGING MACHINE LEARNING TO ASSESS GAME BALANCING FOR COLLECTABLE CARD GAMES
 
+## Content
+This project includes:
+* Project Overview: You can watch on [YouTube](https://www.youtube.com/watch?v=ujCheuUMxXE) with a timestamp on each chapter. 
+* Dissertation: Please visit [project's wiki](https://github.com/vincentvason/xai-cardgamebalancer/wiki).
+* Game Prototype: Please visit [itch.io](https://vincentvason.itch.io/spellbot) for a demo and a [game project](https://github.com/vincentvason/xai-cardgamebalancer/tree/main/GameProject/Spellbot).
+* Game Balancing Framework: Please visit a [framework prototype](https://github.com/vincentvason/xai-cardgamebalancer/tree/main/FrameworkPrototype).
+
 ## Summary
 This dissertation aims to create a framework for game balancing with suggestion while effectively exploring state space and non-deterministic information. It proposes a framework to assess and bring balance to Collectable Card Games automatically. Collectable Card Games are non-deterministic information games with complex rules. In addition, Collectable Card Games also face the challenge of retain the game balance while new cards are keep introducing and integrating into the existing card pool.
 The game-balanced framework consists of three layers. The Player Layer, which includes self-play agent, aim to win this game. The Tournament Layer conducts multiple parallel games between the player’s self-play agent from the player layer and generates data through self-play games. The Game Balance Layer measures the predicted winning probability of each player, and demonstrates game re-balancing using machine learning, predictions and reasoning and then applies a new card to either player to generate perturbation into the game. 
