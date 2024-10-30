@@ -17,7 +17,7 @@ Please visit [project's wiki](https://github.com/vincentvason/xai-cardgamebalanc
 
 ## Technology Usage
 This dissertation has two parts:
-* Game Prototype is designed and developed with Unity (Prototype is playable in [itch.io](https://vincentvason.itch.io/spellbot).)
+* Game Prototype is designed and developed with C# .NET Unity (Prototype is playable in [itch.io](https://vincentvason.itch.io/spellbot).)
 * Game Balancer Framework seperately developed with Python 3 in JupyterLab
 
 ## Disclaimer
